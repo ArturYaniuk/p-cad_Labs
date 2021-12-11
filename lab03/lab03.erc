@@ -2,7 +2,7 @@ P-CAD Electrical Rules Check Report
 
 ======================================================================
 
-C:\Users\ASUS\Documents\My Project\p-cad\lab03\lab03.erc:
+C:\Users\ASUS\Documents\GitHub\p-cad_Labs\lab03\lab03.erc:
 
 ERC Report Options:
 -------------------
@@ -53,31 +53,28 @@ Warning 15 -- Net NET00008 has no input pins
 Warning 16 -- Net NET00008 has no output pins
 Warning 17 -- Net NET00009 has no input pins
 Warning 18 -- Net NET00009 has no output pins
-Warning 19 -- Net NET00010 has no input pins
-Warning 20 -- Net NET00010 has no output pins
-Warning 21 -- Net NET00003 has no input pins
-Warning 22 -- Net NET00003 has no output pins
-Warning 23 -- Net NET00011 has no input pins
-Warning 24 -- Net NET00011 has no output pins
-Warning 25 -- Net NET00013 has no input pins
+Warning 19 -- Net NET00003 has no input pins
+Warning 20 -- Net NET00003 has no output pins
+Warning 21 -- Net NET00013 has no input pins
+Warning 22 -- Net NET00013 has no output pins
+
+22 warning(s) detected.
+0 error(s) detected.
 
 ----------------------------------------------------------------------
 
-10-Dec-21  19:51                                            Page    1
+11-Dec-21  18:30                                            Page    1
 
 P-CAD Electrical Rules Check Report
 
 ======================================================================
 
-Warning 26 -- Net NET00013 has no output pins
-
-26 warning(s) detected.
-0 error(s) detected.
 
 UNCONNECTED PINS:
 
+Warning 23 -- Unconnected pin R6-1 on sheet:Sheet1 at mils (3400.0,1600.0)
 
-0 warning(s) detected.
+1 warning(s) detected.
 0 error(s) detected.
 
 UNCONNECTED WIRES:
@@ -100,8 +97,8 @@ COMPONENT RULES:
 
 NET CONNECTIVITY RULES:
 
-Warning 27 -- Power symbol +5B is connected to net VCC at location 7900.0mil, 4
-400.0mil, on sheet 73696752.  The net name is ambiguous.
+Warning 24 -- Power symbol +5B is connected to net VCC at location 7900.0mil, 4
+400.0mil, on sheet 55649048.  The net name is ambiguous.
 
 1 warning(s) detected.
 0 error(s) detected.
@@ -126,22 +123,22 @@ No Node:
 	Errors:         0
 	Warnings:       0
 	Ignored Errors: 0
+Electrical:
+	Errors:         0
+	Warnings:       22
 
 ----------------------------------------------------------------------
 
-10-Dec-21  19:51                                            Page    2
+11-Dec-21  18:30                                            Page    2
 
 P-CAD Electrical Rules Check Report
 
 ======================================================================
 
-Electrical:
-	Errors:         0
-	Warnings:       26
 	Ignored Errors: 0
 Unconnected Pin:
 	Errors:         0
-	Warnings:       0
+	Warnings:       1
 	Ignored Errors: 0
 Unconnected Wire:
 	Errors:         0
@@ -192,7 +189,10 @@ Hierarchy:
 
 
 
+
+
+
 ----------------------------------------------------------------------
 
-10-Dec-21  19:51                                            Page    3
+11-Dec-21  18:30                                            Page    3
 
