@@ -1,0 +1,16 @@
+PCAD Importer Log
+Project : lab03.PrjPcb
+
+Section : C:\Users\Administrator\Downloads\lab03.SCH
+    Section : Parsing Messages
+    EndSection
+
+    Section : Generating SCH Library - lab03.SchLib
+    EndSection
+
+    Section : Generating SCH Sheet - Sheet1.SCHDOC
+    EndSection
+
+    Section : Analyzing SCH Sheet - Sheet1.SCHDOC
+    EndSection
+EndSection
